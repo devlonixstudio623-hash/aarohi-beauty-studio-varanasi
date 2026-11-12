@@ -7,6 +7,23 @@
  * ============================================================================
  */
 
+import heroBrideImg from './assets/images/hero_bride_1794440229030.jpg';
+import stylistSunitaImg from './assets/images/stylist_sunita_1794440277457.jpg';
+import stylistPriyankaImg from './assets/images/stylist_priyanka_1794440278579.jpg';
+import stylistAnanyaImg from './assets/images/stylist_ananya_1794440279037.jpg';
+import stylistTanviImg from './assets/images/stylist_tanvi_1794440278544.jpg';
+import goldFacialSpaImg from './assets/images/gold_facial_spa_1794440257600.jpg';
+import jasmineBraidImg from './assets/images/jasmine_braid_1794440232215.jpg';
+import bridalNailArtImg from './assets/images/bridal_nail_art_1794440257217.jpg';
+import haldiBrideImg from './assets/images/haldi_bride_1794440232264.jpg';
+import salonStudioImg from './assets/images/salon_studio_1794440231913.jpg';
+import hairSmoothAfterImg from './assets/images/hair_smooth_after_1794440231016.jpg';
+import hairFrizzBeforeImg from './assets/images/hair_frizz_before_1794440229664.jpg';
+import bridalBeforeImg from './assets/images/bridal_before_1794440228195.jpg';
+import bridalAfterImg from './assets/images/bridal_after_1794440229368.jpg';
+import facialDetanBeforeImg from './assets/images/facial_detan_before_1794440254251.jpg';
+import facialDetanAfterImg from './assets/images/facial_detan_after_1794440255470.jpg';
+
 export interface Service {
   id: string;
   name: string;
@@ -114,7 +131,7 @@ export const CONFIG = {
   demoStripText: "Demo prepared for Aarohi Beauty Studio by Devlonix",
 
   // Master Hero Image
-  heroImage: "/src/assets/images/hero_bride_1794440229030.jpg",
+  heroImage: heroBrideImg,
 
   // Brand Palette
   colors: {
@@ -428,7 +445,7 @@ export const CONFIG = {
       role: "Founder & Master Bridal Artist",
       experienceYears: 14,
       specialty: "Airbrush Bridal & Banarasi Heritage Looks",
-      photoUrl: "/src/assets/images/stylist_sunita_1794440277457.jpg",
+      photoUrl: stylistSunitaImg,
       bio: "Trained under top Mumbai and Delhi academy mentors, Sunita has draped and styled over 2,200 brides across Eastern Uttar Pradesh. Her signature is skin that still breathes."
     },
     {
@@ -437,7 +454,7 @@ export const CONFIG = {
       role: "Senior Skin Therapist & Aesthetician",
       experienceYears: 9,
       specialty: "Hydra-Infusion & Ayurvedic Kumkumadi Care",
-      photoUrl: "/src/assets/images/stylist_priyanka_1794440278579.jpg",
+      photoUrl: stylistPriyankaImg,
       bio: "Certified clinical aesthetician who tailors every facial to the exact mineral balance and humidity needs of Varanasi skin."
     },
     {
@@ -446,7 +463,7 @@ export const CONFIG = {
       role: "Creative Hair Sculptor & Colorist",
       experienceYears: 7,
       specialty: "Botanical Keratin & Traditional Floral Braids",
-      photoUrl: "/src/assets/images/stylist_ananya_1794440279037.jpg",
+      photoUrl: stylistAnanyaImg,
       bio: "Obsessed with hair health first. Ananya creates bridal buns that feel feather-light even with heavy matha pattis."
     },
     {
@@ -455,7 +472,7 @@ export const CONFIG = {
       role: "Nail Artist & Sangeet Makeup Stylist",
       experienceYears: 6,
       specialty: "Russian Gel Extensions & Cocktail Glam",
-      photoUrl: "/src/assets/images/stylist_tanvi_1794440278544.jpg",
+      photoUrl: stylistTanviImg,
       bio: "Known for sharp winged liners, dewy glass-skin finishes, and bespoke hand-painted bridal nail art."
     }
   ] as Stylist[],
@@ -531,56 +548,56 @@ export const CONFIG = {
       title: "Royal Crimson Banarasi Bride",
       category: "Bridal",
       tag: "Signature HD",
-      imageUrl: "/src/assets/images/hero_bride_1794440229030.jpg"
+      imageUrl: heroBrideImg
     },
     {
       id: "g2",
       title: "24K Gold & Saffron Facial Ritual",
       category: "Facial",
       tag: "Kashi Gold Ritual",
-      imageUrl: "/src/assets/images/gold_facial_spa_1794440257600.jpg"
+      imageUrl: goldFacialSpaImg
     },
     {
       id: "g3",
       title: "Traditional Jasmine-Woven Braid",
       category: "Hair",
       tag: "Heritage Styling",
-      imageUrl: "/src/assets/images/jasmine_braid_1794440232215.jpg"
+      imageUrl: jasmineBraidImg
     },
     {
       id: "g4",
       title: "Handcrafted Bridal Gel Nail Art",
       category: "Nails",
       tag: "Russian Extensions",
-      imageUrl: "/src/assets/images/bridal_nail_art_1794440257217.jpg"
+      imageUrl: bridalNailArtImg
     },
     {
       id: "g5",
       title: "Haldi Ceremony Joyful Amber Glow",
       category: "Bridal",
       tag: "Daytime Glow",
-      imageUrl: "/src/assets/images/haldi_bride_1794440232264.jpg"
+      imageUrl: haldiBrideImg
     },
     {
       id: "g6",
       title: "Luxury Sigra Salon Sanctuary",
       category: "Studio",
       tag: "Private Bridal Suite",
-      imageUrl: "/src/assets/images/salon_studio_1794440231913.jpg"
+      imageUrl: salonStudioImg
     },
     {
       id: "g7",
       title: "Frizz-Free Silk Keratin Finish",
       category: "Hair",
       tag: "Silk Therapy",
-      imageUrl: "/src/assets/images/hair_smooth_after_1794440231016.jpg"
+      imageUrl: hairSmoothAfterImg
     },
     {
       id: "g8",
       title: "Royal Muhurtham HD Makeup",
       category: "Makeup",
       tag: "Airbrush Base",
-      imageUrl: "/src/assets/images/bridal_after_1794440229368.jpg"
+      imageUrl: bridalAfterImg
     }
   ] as GalleryItem[],
 
@@ -591,24 +608,24 @@ export const CONFIG = {
       title: "Wedding Day Skin & Bridal Artistry",
       treatment: "Hydra-Infusion & HD Bridal Base",
       notes: "Smoothed post-acne texture and dark circles without heavy cake-like layering.",
-      beforeUrl: "/src/assets/images/bridal_before_1794440228195.jpg",
-      afterUrl: "/src/assets/images/bridal_after_1794440229368.jpg"
+      beforeUrl: bridalBeforeImg,
+      afterUrl: bridalAfterImg
     },
     {
       id: "ba2",
       title: "Frizz-Free Botanical Keratin Therapy",
       treatment: "Organic Keratin & Gloss Treatment",
       notes: "Tamed coarse, humidity-damaged waves into smooth silk that lasts through monsoon.",
-      beforeUrl: "/src/assets/images/hair_frizz_before_1794440229664.jpg",
-      afterUrl: "/src/assets/images/hair_smooth_after_1794440231016.jpg"
+      beforeUrl: hairFrizzBeforeImg,
+      afterUrl: hairSmoothAfterImg
     },
     {
       id: "ba3",
       title: "Kashi Gold Radiance Detan Ritual",
       treatment: "Ayurvedic Kumkumadi & 24K Leaf Facial",
       notes: "Reversed stubborn sun tanning and brought out natural high-point luminosity.",
-      beforeUrl: "/src/assets/images/facial_detan_before_1794440254251.jpg",
-      afterUrl: "/src/assets/images/facial_detan_after_1794440255470.jpg"
+      beforeUrl: facialDetanBeforeImg,
+      afterUrl: facialDetanAfterImg
     }
   ] as BeforeAfterPair[],
 
